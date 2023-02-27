@@ -277,13 +277,30 @@ img{
 @media screen and (min-width: 1200px) {
         .section-occupation {
                 padding: 120px 0px;
+                display: block;
+        }
+}
+
+.section-customers{
+                padding: 96px 0px;
+        }
+
+@media screen and (min-width: 768px) {
+        .section-customers {
+                padding: 96px 0px;
+        }
+}
+
+@media screen and (min-width: 1200px) {
+        .section-customers {
+                padding: 120px 0px;
         }
 }
 
 .main-nav{
         list-style: none;
         display: flex;
-        gap: 24px;
+        gap: 72px 24px;
         flex-wrap: wrap;
 }
 
@@ -421,7 +438,7 @@ img{
         line-height: 1.166;
         text-align: center;
         letter-spacing: 0.03em;
-        margin-bottom: 50px;
+        margin-bottom: 72px;
 }
 
 .list-background-antenna {
@@ -566,8 +583,7 @@ img{
 }
 
 .h3-feature-list{
-        width: 396px;
-        height: 48px;
+        width: 100%;
         font-weight: 500;
         font-size: 16px;
         line-height: 24px;
@@ -731,13 +747,39 @@ img{
 
 .client-soc-list {
         display: flex;
-        /* justify-content: center; */
-        gap: 24px;
+        flex-wrap: wrap;
+        gap: 72px 16px;
+}
+
+@media screen and (min-width: 768px) {
+        .client-soc-list {
+                gap: 72px 24px;
+                justify-content: center;
+        }
+}
+
+@media screen and (min-width: 1200px) {
+        .client-soc-list {
+                gap: 24px;
+        }
 }
 
 .client-soc-item {
-        width: 168px;
+        width: 190px;
         height: 88px;
+}
+
+@media screen and (min-width: 768px) {
+        .client-soc-item {
+                width: 168px;
+                height: 88px;
+        }
+}
+
+@media screen and (min-width: 1200px) {
+        .client-soc-item {
+                
+        }
 }
 
 .client-link {
