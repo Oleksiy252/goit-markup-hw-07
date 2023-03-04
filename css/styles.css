@@ -112,10 +112,6 @@ img{
         }
 }
 
-@media screen and (min-width: 1200px) {
-        .logo-part-white {}
-}
-
 .navigation{
         display: none;
         margin-right: auto;
@@ -381,9 +377,20 @@ img{
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)     
         ),
-        url('../images/people_office_1.jpg');
+        url('../images/hero image/Dark-bg_mob@1x.jpg');
         max-width: 480px;
         margin: 0 auto;
+}
+
+@media (min-device-pixel-ratio: 2),
+        (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        .hero {
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                                        rgba(46, 47, 66, 0.7)),
+                                url('../images/hero image/Dark-bg_mob@2x.jpg');
+        }
 }
 
 @media screen and (min-width: 768px) {
@@ -394,8 +401,18 @@ img{
                 background-position: center;
                 background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                               rgba(46, 47, 66, 0.7)),
-                        url('../images/people_office_1.jpg');
+                        url('../images/hero image/Dark-bg_tab@1x.jpg');
                 max-width: 768px;
+        }
+@media (min-device-pixel-ratio: 2),
+        (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        .hero {
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                                        rgba(46, 47, 66, 0.7)),
+                                url('../images/hero image/Dark-bg_tab@2x.jpg');
+                }
         }
 }
 
@@ -407,9 +424,19 @@ img{
                 background-position: center;
                 background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                                 rgba(46, 47, 66, 0.7)),
-                        url('../images/people_office_1.jpg');
+                        url('../images/hero image/people-office\ 1_desk@1x.jpg');
                 max-width: 1440px;
                 }
+@media (min-device-pixel-ratio: 2),
+        (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        .hero {
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                                        rgba(46, 47, 66, 0.7)),
+                                url('../images/hero image/people-office\ 1_desk@2x.jpg');
+                }
+        }
 }
 
 .section-peculiarities{
@@ -458,12 +485,6 @@ img{
         }
 }
 
-@media screen and (min-width: 1200px) {
-        .hero-title {
-                
-        }
-}
-
 .visually-hidden {
         position: absolute;
         width: 1px;
@@ -473,6 +494,10 @@ img{
         overflow: hidden;
         border: 0;
         clip: rect(0 0 0 0);
+}
+
+.page{
+        overflow: hidden;
 }
 
 .main-button{
@@ -1000,10 +1025,6 @@ img{
         }
 }
 
-@media screen and (min-width: 1200px) {
-        .footer-block {}
-}
-
 .footer-logo-block{
         margin: 0 auto;
 }
@@ -1050,10 +1071,6 @@ img{
                 align-items: flex-start;
                 width: auto;
         }
-}
-
-@media screen and (min-width: 1200px) {
-        .footer-subscribe-block {}
 }
 
 .advice {
@@ -1142,12 +1159,6 @@ img{
         margin-bottom: 16px;
         text-align: center;
 }
-
-@media screen and (min-width: 768px) {
-        .section {}
-}
-
-
 
 .footer-soc-list {
         display: flex;
