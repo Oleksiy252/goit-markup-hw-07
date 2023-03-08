@@ -29,7 +29,7 @@ img{
 
 .container{
         min-width: 320px;
-        max-width: 428px;
+        max-width: 480px;
         width: 100%;
         padding-left: 15px;
         padding-right: 15px;
@@ -571,7 +571,7 @@ img{
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)     
         ),
-        url('../images/hero image/Dark-bg_mob@1x.jpg');
+        url('../images/hero-image/Dark-bg_mob@1x.jpg');
         max-width: 480px;
         margin: 0 auto;
 }
@@ -585,7 +585,7 @@ img{
                         rgba(46, 47, 66, 0.7),
                         rgba(46, 47, 66, 0.7)
         ),
-        url('../images/hero image/Dark-bg_mob@2x.jpg');
+        url('../images/hero-image/Dark-bg_mob@2x.jpg');
         }
 }
 
@@ -597,7 +597,7 @@ img{
                 background-position: center;
                 background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                               rgba(46, 47, 66, 0.7)),
-                        url('../images/hero image/Dark-bg_tab@1x.jpg');
+                        url('../images/hero-image/Dark-bg_tab@1x.jpg');
                 max-width: 768px;
         }
 @media (min-device-pixel-ratio: 2),
@@ -607,7 +607,7 @@ img{
         .hero {
                 background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                                         rgba(46, 47, 66, 0.7)),
-                                url('../images/hero image/Dark-bg_tab@2x.jpg');
+                                url('../images/hero-image/Dark-bg_tab@2x.jpg');
                 }
         }
 }
@@ -620,18 +620,19 @@ img{
                 background-position: center;
                 background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                                 rgba(46, 47, 66, 0.7)),
-                        url('../images/hero image/people-office\ 1_desk@1x.jpg');
+                        url('../images/hero-image/Dark-bg_desk@1x.jpg');
                 max-width: 1440px;
                 }
+}
+
 @media (min-device-pixel-ratio: 2),
-        (-webkit-min-device-pixel-ratio: 2),
-        (min-resolution: 192dpi),
-        (min-resolution: 2dppx) {
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
         .hero {
                 background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                                         rgba(46, 47, 66, 0.7)),
-                                url('../images/hero image/people-office\ 1_desk@2x.jpg');
-                }
+                                url('../images/hero-image/Dark-bg_desk@2x.jpg');
         }
 }
 
@@ -1879,7 +1880,6 @@ img{
 .burger-soc-list{
         margin-top: 48px;
         display: flex;
-        justify-content: center;
         gap: 56px;
 }
 
@@ -1892,7 +1892,7 @@ img{
         width: 100%;
         height: 100%;
         background: #4D5AE5;
-        opacity: 0.1;
+        /* opacity: 0.1; */
         border-radius: 50%;
         display: flex;
         align-items: center;
